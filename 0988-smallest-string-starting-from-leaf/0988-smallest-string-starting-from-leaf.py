@@ -17,7 +17,7 @@ class Solution:
                 s=s[:len(s):]
             if root.right!=None:
                 fun(root.right,s,l)
-                s=s[:len(s)-1:]
+                s=s[:len(s):]
             
         s=''
         l=[]
